@@ -3,13 +3,18 @@
 import typing
 
 
-def make_multiplier(multiplier: float) -> Callable[[float], float]:
+def make_multiplier(multiplier: float) -> typing.Callable[[float], float]:
     """
-    takes a float multiplier as argument
-    returns a function that multiplies a float by multiplier.
-    """
-    def f(n: float) -> float:
-        """ multiplies a float by multiplier """
-        return float(n * multiplier)
+    Returns a function that multiplies a float by the provided multiplier.
 
-    return f
+    Args:
+        multiplier: A float value to use as a multiplier.
+
+    Returns:
+        A function that takes a single float argument and returns its product
+        with the multiplier.
+
+    """
+    def multiplier_func(x: float) -> float:
+        return x * multiplier
+    return multiplier_func
