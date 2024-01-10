@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
 """ Complex types - string and int/float to tuple"""
-import typing
+from typing import Callable, Iterator, Union, Optional, List, Tuple
 
 
-def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
-    Takes a string k and an int or float v, returns a tuple with the string k
-    as the first element and the square of v as a float as the second element.
-
-    Args:
-        k: A string key.
-        v: An integer or float value to be squared.
-
-    Returns:
-        A tuple containing the string key k as the first element and the square of v
-        as a float as the second element.
+    takes a string k and an int OR float v as arguments
+    returns a tuple.
     """
-    return (k, float(v**2))
+
+    return (k, v**2)
