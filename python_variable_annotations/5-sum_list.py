@@ -2,13 +2,15 @@
 """ Complex types - list of floats """
 import typing
 
-def sum_list(input_list: List[float]) -> float:
+def sum_list(input_list: typing.List[float]) -> float:
     """
-     def sum_list(input_list: List[float]) -> float:
-    """
-    Takes a list input_list of floats as argument
+    Sums a list of floats and returns their total.
 
-    returns their sum as a float.
-    """
+    Args:
+        input_list: A list of floats to sum.
 
+    Returns:
+        The sum of the input list as a float.
+
+    """
     return sum(input_list)
