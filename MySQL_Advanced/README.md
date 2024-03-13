@@ -1,6 +1,6 @@
 # MySQL advanced
 
-*Learning Objectives*
+# Learning Objectives
 1. How to create tables with constraints
 2. How to optimize queries by adding indexes
 3. What is and how to implement stored procedures and functions in MySQL
