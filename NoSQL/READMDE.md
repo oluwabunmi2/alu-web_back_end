@@ -1,12 +1,12 @@
-NoSQL
+# NoSQL
 
-Learning Objectives
-What NoSQL means
-What is difference between SQL and NoSQL
-What is ACID
-What is a document storage
-What are NoSQL types
-What are benefits of a NoSQL database
-How to query information from a NoSQL database
-How to insert/update/delete information from a NoSQL database
-How to use MongoDB
+# Learning Objectives
+1. What NoSQL means
+2. What is difference between SQL and NoSQL
+3. What is ACID
+4. What is a document storage
+5. What are NoSQL types
+6. What are benefits of a NoSQL database
+7. How to query information from a NoSQL database
+8. How to insert/update/delete information from a NoSQL database
+9. How to use MongoDB
