@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-""" MongoDB Operations with Python using pymongo """
-
+'''Task 12: Log stats
+'''
 from pymongo import MongoClient
 
 
