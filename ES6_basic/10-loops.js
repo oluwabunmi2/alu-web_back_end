@@ -1,5 +1,9 @@
-import appendToEachArrayValue from './10-loops.js';
+export default function appendToEachArrayValue(array, appendString) {
+  const array2 = array;
+  for (const value of array) {
+    const idx = array.indexOf(value);
+    array2[idx] = appendString + value;
+  }
 
-console.log(
-  appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-')
-);
+  return array2;
+}
